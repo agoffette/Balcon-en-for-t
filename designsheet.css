@@ -1,0 +1,321 @@
+/* style.css */
+h1 {
+  font-family: 'Pacifico', cursive;
+  font-size: 60px;
+}
+
+h2 {
+	font-family: 'Josefin Sans', sans-serif;
+	color: rgb(49,95,37);
+	font-size: 50px;
+	text-align: center;	
+}
+
+p {
+	font-family: 'Nanum Gothic', sans-serif;
+}
+
+a {
+	text-decoration: none;
+}
+
+#Nav {
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 60px;
+
+}
+
+.Navbar {
+	display: flex;
+	position: relative;
+	flex-direction: row;
+	justify-content: space-around;
+	text-align: center;
+	height: 60px;
+	margin: 0;
+	padding: 5px;
+	background: white;
+	color: rgb(49,95,37);
+	border-radius: 0;
+	font-weight: bolder;
+	font-size: 17px;
+	text-decoration: none;
+}
+
+#menu {
+	position: absolute;
+	left: 20px;
+	padding-top: 7px;
+	font-size: 40px;
+}
+
+#menu:hover {
+	color: rgb(17, 176, 6);
+}
+
+#Navbar-logo {
+	position: absolute;
+	left: 65px;
+	margin-top: auto;
+	margin-bottom: auto;
+	padding-top: 10px;
+}
+
+#Navbar-btn {
+	position: absolute;
+	right: 3%;
+	bottom: 12px;
+	text-decoration: none;
+	text-align: center;
+	border: 1px solid rgb(49,95,37);
+	border-radius: 6px;
+	font-weight: lighter;
+	font-size: 13px;
+	color: rgb(49,95,37);
+	padding: 5px;
+	padding-right: 30px;
+	padding-left: 30px;
+	margin-top: 0px;
+	box-shadow: 1px 1px grey;
+	font-family: 'Nanum Gothic', sans-serif;
+	letter-spacing: 0;
+}
+
+#Navbar-btn:hover {
+	background: rgb(49,95,37);
+	color: white;
+}
+
+.dropdown {
+	position: absolute;
+	left: 0;
+	display: block;
+}
+
+.dropdown-content {
+	text-align: left;
+	list-style-type: none;
+	display: none;
+	position: fixed;
+	left: 0
+	top: 60px;
+	line-height: 240%;
+	z-index: 2;
+	font-family: 'Nanum Gothic', sans-serif;
+	box-shadow: 2px 2px grey;
+	border-radius: 6px;
+	padding: 25px;
+	background: white;
+	font-size: 16px;
+	font-weight: lighter;
+	letter-spacing: 5px;
+	width: 100%;
+	height: 300px;
+}
+
+.dropdown-content li:hover {
+	font-weight: bolder;
+	color: rgb(17, 176, 6);
+}
+
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.header {
+	display: flex;
+	position: relative;
+	flex-direction: column;
+	background: linear-gradient(0deg, rgba(255,255,255,0.8) 0%, rgba(255,255,255,0.6) 50%), url("images/diapo1.jpg");
+	background-size: 1300px;
+  	height: 410px;
+  	text-align: center;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.header:hover {
+	background-size: 1500px;
+}
+
+#logo{
+	position: absolute;
+	bottom: 32px;
+	color: white;
+	margin: 0;
+	margin-bottom: 50px;
+	padding: 0;
+	width: 375px;
+}
+
+#Bienvenue {
+	position: absolute;
+	bottom: 20px;
+}
+
+.cards {
+	background: rgb(49,95,37);
+	padding: 10px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	display: flex;
+	position: relative;
+	justify-content: space-between;
+}
+
+.card {
+	height: 250px;
+	width: 275px;
+	box-shadow: 4px 4px rgba(0,0,0,0.2);
+	border-radius: 4px;
+	padding: 10px; 
+	margin: 20px;
+}
+
+.cardtext {
+	position: absolute;
+	bottom: 30px;
+	left: 35px;
+	color: rgb(49,95,37);
+  width: 200px;
+  font-weight: lighter;
+  font-size: 15px;
+  background: rgb(255,255,255);
+  opacity: 0.9;
+  padding: 5px;
+  border-radius: 1px;
+}
+
+.cardtitle {
+font-family: 'Josefin Sans', sans-serif;
+  color: white;
+  font-weight: bolder;
+  font-size: 25px;
+  background: rgb(49,95,37);
+  opacity: 0.9;
+  padding: 5px;
+  border-radius: 1px;
+  position: absolute;
+	top: 20px;
+	left: 37px;
+}
+
+
+#apropos {
+	background-image: linear-gradient(135deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.65) 50%), url("images/auberge66.png");
+	background-size: cover;
+}
+
+#apropos:hover {
+	background-image: url("images/auberge66.png");
+	background-size: cover;
+	border: 1.5px solid white;
+}
+
+#lacarte {
+	background-image: linear-gradient(120deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.65) 50%), url("images/plat.jpg") ;
+	background-size: cover;
+}
+
+#lacarte:hover {
+	background-image: url("images/plat.jpg");
+	background-size: cover;
+	border: 1.5px solid white;
+
+}
+
+#hautsbuttes {
+	background-image: linear-gradient(120deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.65) 50%), url("images/eglise.jpg") ;
+	background-size: cover;
+}
+
+#hautsbuttes:hover {
+	background-image: url("images/eglise.jpg");
+	background-size: cover;
+	border: 1.5px solid white;
+
+}
+
+#groupes {
+	background-image: linear-gradient(120deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.65) 50%), url("images/accueilgroupe.jpeg") ;
+	background-size: cover;	
+}
+
+#groupes:hover {
+	background-image: url("images/accueilgroupe.jpeg") ;
+	background-size: cover;
+	border: 1.5px solid white;		
+}
+
+#footer {
+	position: relative;
+	background: white;
+	height: 170px; 
+	padding: 50px;
+}
+
+#follow {
+	position: absolute;
+	left: 40%;
+	top: 40px;
+	font-size: 20px;
+	letter-spacing: 5px;
+	font-weight: lighter;
+	color: rgb(49,95,37);
+}
+
+.icons {
+	position: absolute;
+	bottom: 30px;
+	left: 36%;
+}
+
+.icons li {
+	display: inline;
+	text-align: center;
+	text-decoration: none;
+	font-size: 25px;
+	color: rgb(49,95,37);
+	margin: 20px;
+}
+
+.icons li:hover {
+	font-size: 22px;
+}
+
+#TA_restaurantWidgetWhite724 {
+	position: absolute;
+	bottom: 50px;
+	left: 30px;
+	height: 50px;
+	width: 50px; 
+	padding: 0px;
+}
+
+#footerbis {
+	height: 60px;
+	background: rgb(49,95,37);
+	padding-top: 20px; 
+	text-align: center;
+}
+
+.footerbiselement {
+	text-decoration: none;
+	color: white;
+	opacity: 0.8;
+	font-weight: lighter;
+	font-size: 11px;
+}
+
+.footerbiselement:hover {
+	text-decoration: none;
+	color: white;
+	opacity: 0.8;
+	font-weight: bolder;
+	font-size: 13px;
+}
