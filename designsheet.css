@@ -135,6 +135,8 @@ a {
 	color: rgb(17, 176, 6);
 }
 
+}
+
 .header {
 	display: flex;
 	position: relative;
@@ -155,11 +157,6 @@ a {
 	margin-bottom: 20px;
 	padding: 0;
 	width: 350px;
-}
-
-#Bienvenue {
-	position: absolute;
-	bottom: 20px;
 }
 
 .cards {
@@ -338,19 +335,21 @@ margin-top: 20px;
    #Navbar-btn {
       display: none;
    }
+   .dropdown-content {
+      height: 100%;
+  }
+  	#dropdown-x {
+	position: fixed;
+	bottom: 30px;
+	right: 30px;
+	color: rgb(17, 176, 6);
+	font-size: 30px;
 }
 
-#Resa-btn-xs {
-	position: absolute;
-	top: 60px;
-	right: 5px;
-	height: 50px;
 
-}
 
-@media (min-width: 760px) {                  
-   #Resa-btn-xs {
-      display: none;
-   }
-}
+
+
+
+
 
