@@ -322,7 +322,7 @@ font-family: 'Josefin Sans', sans-serif;
 	font-size: 13px;
 }
 
-@media (max-width: 700px) {                  
+@media (max-width: 760px) {                  
    #Navbar-btn {
       display: none;
    }
@@ -336,7 +336,7 @@ font-family: 'Josefin Sans', sans-serif;
 
 }
 
-@media (min-width: 700px) {                  
+@media (min-width: 760px) {                  
    #Resa-btn-xs {
       display: none;
    }
