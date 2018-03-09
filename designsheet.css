@@ -144,18 +144,14 @@ a {
 	align-items: center;
 }
 
-.header:hover {
-	background-size: 1500px;
-}
-
 #logo{
 	position: absolute;
-	bottom: 12px;
+	bottom: 20px;
 	color: white;
 	margin: 0;
-	margin-bottom: 10px;
+	margin-bottom: 15px;
 	padding: 0;
-	width: 450px;
+	width: 400px;
 }
 
 #Bienvenue {
