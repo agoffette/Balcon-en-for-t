@@ -110,27 +110,29 @@ a {
 	top: 130px;
 	line-height: 240%;
 	z-index: 0;
-	font-family: 'Nanum Gothic', sans-serif;
 	border-radius: 0;
 	padding: 25px;
 	padding-top: 70px;
 	background: white;
-	font-size: 16px;
-	font-weight: lighter;
-	letter-spacing: 2px;
 	width: 100%;
-	height: 320px;
+	height: 325px;
 	margin-left: 0;
 }
 
-.dropdown-content li:hover {
-	font-weight: bolder;
-	color: rgb(17, 176, 6);
-}
-
-
 .dropdown:hover .dropdown-content {
     display: block;
+}
+
+.dropdown-text {
+	font-family: 'Nanum Gothic', sans-serif;
+	font-size: 15px;
+	font-weight: lighter;
+	letter-spacing: 2px;
+}
+
+.dropdown-text li:hover {
+	font-weight: bolder;
+	color: rgb(17, 176, 6);
 }
 
 .header {
