@@ -67,7 +67,7 @@ a {
 	padding-top: 10px;
 }
 
-#Navbar-btn {
+.Resa-btn {
 	position: absolute;
 	right: 3%;
 	bottom: 12px;
@@ -88,10 +88,11 @@ a {
 	letter-spacing: 0;
 }
 
-#Navbar-btn:hover {
+.Resa-btn:hover {
 	background: rgb(17, 176, 6);
 	border: 1px solid rgb(17, 176, 6);
 	color: white;
+	text-decoration: none;
 }
 
 .dropdown {
@@ -112,13 +113,13 @@ a {
 	font-family: 'Nanum Gothic', sans-serif;
 	border-radius: 0;
 	padding: 25px;
-	padding-top: 60px;
+	padding-top: 70px;
 	background: white;
 	font-size: 16px;
 	font-weight: lighter;
 	letter-spacing: 2px;
 	width: 100%;
-	height: 250px;
+	height: 300px;
 	margin-left: 0;
 }
 
@@ -149,9 +150,9 @@ a {
 	bottom: 20px;
 	color: white;
 	margin: 0;
-	margin-bottom: 15px;
+	margin-bottom: 20px;
 	padding: 0;
-	width: 400px;
+	width: 350px;
 }
 
 #Bienvenue {
@@ -320,3 +321,24 @@ font-family: 'Josefin Sans', sans-serif;
 	font-weight: bolder;
 	font-size: 13px;
 }
+
+@media (max-width: 700px) {                  
+   #Navbar-btn {
+      display: none;
+   }
+}
+
+#Resa-btn-xs {
+	position: absolute;
+	top: 5px;
+	right: 5px;
+	height: 50px;
+
+}
+
+@media (min-width: 700px) {                  
+   #Resa-btn-xs {
+      display: none;
+   }
+}
+
