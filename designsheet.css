@@ -48,7 +48,7 @@ a {
 
 #menu {
 	position: absolute;
-	left: 20px;
+	left: 10px;
 	padding-top: 7px;
 	font-size: 40px;
 	z-index: 1;
@@ -61,7 +61,7 @@ a {
 
 #Navbar-logo {
 	position: absolute;
-	left: 65px;
+	left: 50px;
 	margin-top: auto;
 	margin-bottom: auto;
 	padding-top: 10px;
