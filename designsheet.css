@@ -278,10 +278,6 @@ margin-top: 20px;
 	text-align: left;
 }
 
-.icons li:hover {
-	color: rgb(17, 176, 6);
-}
-
 #icon1 {
 	padding: 10px;
 	justify-content: space-around;
