@@ -264,7 +264,9 @@ font-family: 'Josefin Sans', sans-serif;
 }
 
 .icons {
-	
+padding-left: 0;
+margin-left: -10px;	
+margin-top: 20px;
 }
 
 .icons li {
