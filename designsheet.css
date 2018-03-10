@@ -299,6 +299,18 @@ margin-top: 20px;
 	text-align: left;
 }
 
+#icon5 {
+	padding: 10px;
+	justify-content: space-around;
+	text-align: left;
+}
+
+#icon6 {
+	padding: 5px;
+	justify-content: space-around;
+	text-align: left;
+}
+
 #TA_restaurantWidgetWhite724 {
 	position: absolute;
 	bottom: 50px;
