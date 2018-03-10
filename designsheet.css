@@ -39,6 +39,7 @@ a {
 	margin: 0;
 	padding: 5px;
 	background: white;
+	opacity: 0.97;
 	color: rgb(49,95,37);
 	border-radius: 0;
 	font-weight: bolder;
@@ -59,12 +60,20 @@ a {
 	z-index: 1;
 }
 
-#Navbar-logo {
+#Navbar-logo-maison {
 	position: absolute;
-	left: 50px;
+	left: 60px;
 	margin-top: auto;
 	margin-bottom: auto;
-	padding-top: 10px;
+	padding-top: 8px;
+}
+
+#Navbar-logo {
+	position: absolute;
+	left: 130px;
+	margin-top: auto;
+	margin-bottom: auto;
+	padding-top: 12px;
 }
 
 .Resa-btn {
@@ -73,27 +82,25 @@ a {
 	bottom: 12px;
 	text-decoration: none;
 	text-align: center;
-	border: 1px solid rgb(17, 176, 6);
-	background: rgb(17, 176, 6);
-	border-radius: 6px;
+	background: rgb(49,95,37);
+	border-radius: 20px;
 	font-weight: lighter;
-	font-size: 14px;
+	font-size: 13px;
 	color: white;
 	padding: 5px;
 	padding-right: 30px;
 	padding-left: 30px;
 	margin-top: 0px;
-	box-shadow: 1px 1px grey;
 	font-family: 'Nanum Gothic', sans-serif;
 	letter-spacing: 0;
 }
 
 .Resa-btn:hover {
-	background: rgb(49,95,37);
-	border: 1px solid rgb(49,95,37);
+	background: rgb(17, 176, 6);
 	color: white;
 	text-decoration: none;
 }
+
 
 .dropdown {
 	position: absolute;
@@ -162,24 +169,21 @@ a {
 	margin-left: -80px;
 	text-decoration: none;
 	text-align: center;
-	border: 1px solid white;
-	background: rgb(17, 176, 6);
-	border-radius: 6px;
+	background: transparent;
+	border-radius: 20px;
 	font-weight: lighter;
-	font-size: 14px;
-	color: white;
+	font-size: 13px;
+	color: transparent;
 	padding: 5px;
 	padding-right: 30px;
 	padding-left: 30px;
-	box-shadow: 1px 1px white;
 	font-family: 'Nanum Gothic', sans-serif;
 	letter-spacing: 0;
 }
 
 #Resa-btn-xs:hover {
-	background: white;
-	color: rgb(17, 176, 6);
-	box-shadow: 1px 1px rgba(0,0,0,0.3);
+	background: rgba(255,255,255,0.6);
+	color: white;
 	text-decoration: none;
 }
 
@@ -376,18 +380,27 @@ margin-top: 20px;
   }
   	#dropdown-x {
 	position: fixed;
-	bottom: 30px;
-	right: 30px;
+	bottom: 80px;
+	right: 40px;
 	color: rgb(17, 176, 6);
 	font-size: 30px;
     }
 
     #Resa-btn-block-xs {
-    position: relative;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
     height: 50px;
     background: rgb(17, 176, 6);	
     justify-content: center;
     text-align: center;
+    z-index: 1;
+    }
+
+    #Resa-btn-xs{
+    	color: white;
+    	background: rgb(17, 176, 6);
+    	border: 1.5px solid white;
     }
 }
 
