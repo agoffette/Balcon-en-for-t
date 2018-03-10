@@ -352,9 +352,10 @@ margin-top: 20px;
 	display: flex;
 	height: 140px;
 	background: rgb(49,95,37);
-	padding-top: 35px; 
+	padding-top: 21px; 
 	justify-content: center;
 	margin-bottom: 0;
+	padding-bottom: 55px;
 }
 
 .icons-bottom {
@@ -364,9 +365,12 @@ margin-top: 20px;
 	justify-content: space-between;
 	text-align: center;
 	width: 350px;
+	padding: 10px;
+	padding-left: 30px;
+	padding-right: 30px;
 	margin-left: -30px;
+	margin-right: -30px;
 	color: rgb(17, 176, 6);
-
 }
 
 .icons-bottom li {
